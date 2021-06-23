@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> </title>
+<style>
+	ul {
+		list-style-type: none;
+		border: dotted 3px pink;
+		font-size: 25px;
+		margin-bottom: 180px;
+	}
+	ul:hover {
+		border: dotted 3px skyblue;
+		background-color: pink;
+	}
+	li {
+		margin: 10px 5px 10px 5px;
+	}
+	.dropdown {
+		display: block;
+		position: relative;
+	}
+	.dropdownContents{
+		display: none;
+		border: dotted 3px pink;
+		position: absolute;
+		background-color: white;
+		line-height: 30px;
+	}
+	.dropdown:hover .dropdownContents {
+		display: block;
+	}
+</style>
+</head>
+<body>
+<div class='dropdown'>
+	<ul>출신 인물
+		<div class='dropdownContents'>
+			<li><a href='human_1.html' target='hmain'>조인성</a></li>
+			<li><a href='human_2.html' target='hmain'>박용택</a></li>
+			<li><a href='human_3.html' target='hmain'>염따</a></li>
+			<li><a href='human_4.html' target='hmain'>나연</a></li>
+
+	</div>
+	</ul>
+</div>
+<div class='dropdown'>
+	<ul>거주 인물
+		<div class='dropdownContents'>
+			<li><a href='human_5.html' target='hmain'>김장훈</a></li>
+			<li><a href='human_6.html' target='hmain'>박신혜</a></li>
+			<li><a href='human_7.html' target='hmain'>이말년</a></li>
+			<li><a href='human_8.html' target='hmain'>이세돌</a></li>
+		</div>
+	</ul>
+</div>
+</nav>
+</body>
+</html>
